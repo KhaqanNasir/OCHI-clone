@@ -1,0 +1,50 @@
+.eyediv{
+  position: relative;
+  width: 100vw;
+  height: fit-content;
+  overflow-x: hidden;
+  margin-top: -3rem;
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.balls{
+  position: absolute;
+  top: 30%;
+  right: 30%;
+}
+.ball{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.balls1{
+  position: relative;
+  z-index: 500;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: white;
+}
+.balls2{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+    z-index: 600;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.balls3{
+  top: 45%;
+  left: 45%;
+  position: absolute;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  z-index: 999;
+}

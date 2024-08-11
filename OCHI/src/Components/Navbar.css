@@ -1,0 +1,36 @@
+.wholeNav{
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3.3rem;
+  position: relative;
+  font-family: gilroy;
+  font-weight: 700;
+}
+
+.tagsdiv{
+  margin-top: 0.5rem ;
+}
+
+.tagsAnchor {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-right: 2rem;
+  font-size: 1rem;
+  cursor: pointer; 
+  transition: transform 0.2s ease-in-out; 
+}
+
+.tagsAnchor:hover {
+  transform: translateY(-5px); 
+}
+
+.tagsAnchor:nth-child(5){
+ position: absolute;
+ right: 0; 
+ margin-right: 40px;
+}

@@ -1,0 +1,116 @@
+.aboutbg{
+  width: 100vw;
+  position: relative;
+  background-color: #CDEA68;
+  color: black;
+  border-radius: 20px;
+  margin-top: -4rem;
+  z-index: 999;
+}
+
+.aboutText{
+  width: 70%;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: gilroy;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.underline {
+  cursor: pointer;
+  position: relative;
+  display: inline; 
+}
+
+.underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px; 
+  background: black;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.underline:hover::after {
+  transform: scaleX(1);
+}
+
+.aboutdiv1{
+margin: 0 3rem;
+display: flex;
+font-size: 1.1rem;
+font-family: gilroy;
+font-weight: 700;
+}
+
+.aboutp{
+  width: 45%;
+}
+.aboutdiv2{
+ position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutdiv3{
+  position: absolute;
+  cursor: pointer;
+  bottom: 0;
+  right: 8rem;
+  display: flex;
+  flex-direction: column;
+}
+.abttags{
+  color: black;
+}
+.aboutdiv4{
+  margin: 0 3rem;
+}
+.aboutdiv4 p{
+  font-size: 3rem;
+  font-family: gilroy;
+  font-weight: 1000;
+}
+.aboutdiv4 button {
+  border: none;
+  background-color: rgb(28, 27, 27);
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 50px;
+  font-weight: 1000;
+  font-family: gilroy;
+ display: flex;
+ align-items: center;
+}
+
+.aboutdiv4 button i {
+  margin-left: 1rem;
+    color: black;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  font-size: 0rem;
+  padding: 0.3rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.aboutmajor{
+  display: inline-flex;
+}
+
+.aboutdiv5 img{
+  border-radius: 10px;
+}
+
+.aboutdiv4 button:hover i{
+  padding: 0.5rem;
+  font-size: 1.1rem;
+
+}

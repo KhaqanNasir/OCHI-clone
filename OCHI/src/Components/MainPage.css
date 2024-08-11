@@ -1,0 +1,52 @@
+.WholeMain{
+  margin: 8rem 2.3rem;
+  width: 100vw;
+}
+
+.MainText p{
+  font-size: 6rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 1000;
+  line-height: 4.5rem;
+  letter-spacing: -6px;
+}
+
+.hrMain{
+  border-bottom: 1px solid #D2D2D2;
+  margin-top: 5rem;
+  width: 100vw;
+}
+
+.mainSPAN{
+  display: flex;
+}
+.mainimg{
+  width: 8rem;
+  height: 4.4rem;
+  background: linear-gradient(to right, #BBD558, #074A41);
+  border-radius: 5px;
+}
+
+.text2main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: gilroy;
+  font-size: 1rem;
+  font-weight: 1000;
+  margin: 1rem 3.3rem; 
+}
+
+.text2main span a{
+  cursor: pointer;
+  padding: 0.3rem 0.7rem;
+  border-radius: 50px;
+  margin: 2px;
+  border: 1px solid black;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.text2main span a:hover {
+  color: white !important;
+  background-color: black !important;
+}
